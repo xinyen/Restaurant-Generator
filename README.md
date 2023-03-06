@@ -1,7 +1,6 @@
 # Random Restaurant Generator
 
-To run the application, you will need to run the Restaurant Generator backend locally or on a server
-
+To run the application, you will need to run the Restaurant Generator backend 
 ### Frontend
 **To run the website**
 1. Clone client folder 
