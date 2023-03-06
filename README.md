@@ -4,8 +4,8 @@ To run the application, you will need to run the Restaurant Generator backend
 ### Frontend
 **To run the website**
 1. Clone client folder 
-2. Run npm install
-3. npm start
+2. Install dependencies by running 'npm install'
+3. Start the client by running 'npm start'
 
 By default, the application will be available at http://localhost:3000.
 
@@ -14,6 +14,7 @@ By default, the application will be available at http://localhost:3000.
 
 **Installation**
 1. Clone the server folder 
+2. Edit the mongoDB connection uri in server.js
 2. Install dependencies by running 'npm install'
 3. Start the server by running 'node server.js'
 
