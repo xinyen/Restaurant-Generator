@@ -59,7 +59,7 @@ app.delete('/api/restaurants/:team/reset', async (req, res) => {
 
 // get a random restaurant for that team
 app.get('/api/restaurants/:team/random', async (req, res) => {
-    const { team } = req.params.team;
+    const { team } = req.params;
     try {
         const restaurantList = await Restaurant.find({ team });
         if (restaurantList.length === 0) {
