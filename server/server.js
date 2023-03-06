@@ -34,7 +34,9 @@ app.get('/api/restaurants/:team', async (req, res) => {
             res.status(404).send({ message: `No restaurants found for team ${team}` });
             return;
         }
-        res.send({ name: restaurantList });
+        // const restaurantNames = restaurantList.map(restaurant => restaurant.name);
+        // res.send(restaurantNames);
+        res.send(restaurantList)
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: 'An error occurred while retrieving restaurants.' });
