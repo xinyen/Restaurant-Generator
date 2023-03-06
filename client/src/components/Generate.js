@@ -27,7 +27,7 @@ function Generate() {
 
     return (
         <div className="container">
-            <h2 className="text-center">Generate Lunch Spot!</h2>
+            <h1 className="text-center">Generate Lunch Spot!</h1>
             <form onSubmit={handleSubmit} className="form">
                 <label htmlFor="teamName">Team Name:</label>
                 <input type="text" id="teamName" value={teamName} onChange={handleTeamNameChange} />

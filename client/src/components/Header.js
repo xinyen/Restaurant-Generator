@@ -9,7 +9,7 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark">
 
-      <Navbar.Brand href="/">Eat Where?</Navbar.Brand>
+      <Navbar.Brand href="/">EatWhere?</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="/">Submit</Nav.Link>
         <Nav.Link href="/random">Generate</Nav.Link>

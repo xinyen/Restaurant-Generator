@@ -2,13 +2,18 @@
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #e1d9cf;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
 
 h2 {
     font-size: 2rem;
@@ -38,7 +43,7 @@ input[type="text"] {
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #004771;
+    background-color: #401505;
     color: #FDFDE9;
     border: none;
     border-radius: 5px;
@@ -49,5 +54,5 @@ button {
 }
 
 button:hover {
-    background-color: #91CCF1;
+    background-color: #9e2a2b;
 }

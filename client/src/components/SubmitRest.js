@@ -15,7 +15,7 @@ function Submit() {
   const handleTeamNameChange = (event) => {
     setTeamName(event.target.value);
   };
-  
+
   const handleSubmit = (event) => {
     if (!teamName || !restaurantName) {
       alert('Please enter values for both fields');
@@ -40,7 +40,7 @@ function Submit() {
   return (
     <div className="container">
 
-      <h2 className="text-center">Suggest a restaurant!</h2>
+      <h1 className="text-center">Suggest a restaurant!</h1>
       <form onSubmit={handleSubmit} className="form">
         <label htmlFor="teamName">Team Name:</label>
         <input type="text" id="teamName" value={teamName} onChange={handleTeamNameChange} />
